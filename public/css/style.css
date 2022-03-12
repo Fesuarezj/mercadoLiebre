@@ -1,0 +1,89 @@
+/*Selectores de eiquetas*/
+body{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12px;       
+}
+
+header{
+    background-color: #EAC926;
+}
+
+footer{
+    text-align: center;
+}
+
+ul{    
+    list-style: none;
+	padding: 0;	
+}
+
+/**Selectores descendentes*/
+nav ul li a{  
+    color: black;
+	text-decoration: none;	
+}
+ul li i{
+    padding: 0px;
+    margin-left: 3px;
+}
+button i{
+    padding: 0px;
+}
+footer i{
+    font-size: 2em;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+/*Selectores de clase*/
+.titulo-compra{
+    font-size: 12px;
+    text-align: center;     
+}
+.cuerpos-de-texto{
+    font-size: 12px;
+}
+.titulares{
+    font-size: 24px;
+}
+.precio-producto{
+    font-size: 18px;
+}
+.descuento-producto{
+    font-size: 16px;
+}
+.descripcion-producto{
+    font-size: 16px;
+}
+.burger-menu{
+    color: white;
+    text-align: center;
+    background-color: blue;    
+    width: max-content;
+    margin: auto;
+    font-size: 14px;
+    border-radius: 0px;    
+    -webkit-border-radius: 3px 3px 3px 3px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.barra-buscar{    
+    margin-left: 15px;
+    
+}
+.lupa-buscar{
+    margin-left: 15px;
+    margin-top: 1px;
+}
+.titular-pie-de-pagina{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+.texto-pie-de-pagina{
+    margin-top: 0px;   
+}
